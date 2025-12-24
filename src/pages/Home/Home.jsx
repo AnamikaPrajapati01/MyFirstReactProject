@@ -8,71 +8,156 @@ import { LuPenOff } from "react-icons/lu";
 import { FaLightbulb } from "react-icons/fa6";
 import { MdGroups } from "react-icons/md";
 import { AiOutlineLike } from "react-icons/ai";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { MdPlayCircleOutline } from "react-icons/md";
+
+
+
 
 
 
 function Home() {
   return (
-<>
-<Hero/>
-<div className='hero'>
-  <div>
-    <img className='img' src="./heroo.png" alt="" />
-  <div className='exp'>
-  <div className='web'>
-  <h4>1+</h4>
-    <p className='web-para'>Years Experience</p>
-  </div>
-  <div className='web'>
-    <h4> 7+</h4>
-    <p className='web-para'>Happy Clients</p>
-  </div>
-  <div className='web'>
-    <h4>11+</h4>
-    <p className='web-para'>Team Members</p>
-  </div>
-  <div className='web'>
-    <h4>7+</h4>
-    <p className='web-para'>Projects Completed</p>
-  </div>
-  </div>
-  </div>
-  <div>
-    <p className='aboutt'>About Tecnospire</p>
-    <h1>Empowering Innovation & Growth Since 2025</h1>
-    <div className='hrr'></div>
-    <p className='paraa'>We're an innovative IT company dedicated to empowering businesses with cutting-edge technology solutions. From custom software development and robust cybersecurity to cloud integration and IT consulting, we partner with our clients to navigate the complexities of the digital landscape and achieve their strategic goals. Our passion lies in transforming challenges into opportunities through intelligent, scalable, and reliable IT services.</p>
-  <div className='services'>
-  <div className='web'>
-    <h6><TbDeviceDesktopCode /> Web Development</h6>
-    <p className='web-para'>Building responsive and dynamic websites tailored to your business needs.</p>
-  </div>
-  <div className='web'>
-    <h6><FaDatabase /> Data Solutions</h6>
-    <p className='web-para'>Scalable, secure databases and cloud systems.</p>
-  </div>
-  <div className='web'>
-    <h6><FaMobileAlt/>  Mobile App Development</h6>
-    <p className='web-para'>Cross-platform mobile apps with sleek UI and high performance</p>
-  </div>
-  <div className='web'>
-    <h6> <LuPenOff/> UI/UX Design</h6>
-    <p className='web-para'>Protecting your digital assets with advanced security measures and protocols.</p>
-  </div>
-  </div>
-    <div>
-  <h5><FaLightbulb/> Our Vission</h5>
-  <p className='vission'>To be the catalyst for digital transformation, creating innovative solutions that redefine industries and elevate businesses to unprecedented levels of success.</p>
-  </div>
-  <div>
-  <h5> <MdGroups/> Our Mission</h5>
-  <p className='vission'>To deliver unparalleled technology services through innovation, expertise, and partnership, helping clients navigate and thrive in the digital age.</p>
-  <button className='btnn2'><AiOutlineLike/> Get Started</button>
-  <button className='btnn3'>Learn More</button>
-  </div>
-  </div>
-</div>
-</>
+    <>
+      <Hero />
+      <div className='hero'>
+        <div>
+          <img className='img' src="./heroo.png" alt="" />
+          <div className='exp'>
+            <div className='web'>
+              <h4>1+</h4>
+              <p className='web-para'>Years Experience</p>
+            </div>
+            <div className='web'>
+              <h4> 7+</h4>
+              <p className='web-para'>Happy Clients</p>
+            </div>
+            <div className='web'>
+              <h4>11+</h4>
+              <p className='web-para'>Team Members</p>
+            </div>
+            <div className='web'>
+              <h4>7+</h4>
+              <p className='web-para'>Projects Completed</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p className='aboutt'>Why Choose Us
+          </p>
+          <h1>We Deliver Creative, Scalable & Tailored Solutions</h1>
+          <div className='hrr'></div>
+          <p className='paraa'>We're an innovative IT company dedicated to empowering businesses with cutting-edge technology solutions. From custom software development and robust cybersecurity to cloud integration and IT consulting, we partner with our clients to navigate the complexities of the digital landscape and achieve their strategic goals. Our passion lies in transforming challenges into opportunities through intelligent, scalable, and reliable IT services.</p>
+          <div className='services'>
+            <div className='web'>
+              <h6><TbDeviceDesktopCode /> Web Development</h6>
+              <p className='web-para'>Building responsive and dynamic websites tailored to your business needs.</p>
+            </div>
+            <div className='web'>
+              <h6><FaDatabase /> Data Solutions</h6>
+              <p className='web-para'>Scalable, secure databases and cloud systems.</p>
+            </div>
+            <div className='web'>
+              <h6><FaMobileAlt />  Mobile App Development</h6>
+              <p className='web-para'>Cross-platform mobile apps with sleek UI and high performance</p>
+            </div>
+            <div className='web'>
+              <h6> <LuPenOff /> UI/UX Design</h6>
+              <p className='web-para'>Protecting your digital assets with advanced security measures and protocols.</p>
+            </div>
+          </div>
+          <div>
+            <h5><FaLightbulb /> Our Vission</h5>
+            <p className='vission'>To be the catalyst for digital transformation, creating innovative solutions that redefine industries and elevate businesses to unprecedented levels of success.</p>
+          </div>
+          <div>
+            <h5> <MdGroups /> Our Mission</h5>
+            <p className='vission'>To deliver unparalleled technology services through innovation, expertise, and partnership, helping clients navigate and thrive in the digital age.</p>
+            <button className='btnn2'><AiOutlineLike /> Get Started</button>
+            <button className='btnn3'>Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div className='Div'>
+      </div>
+      <div className='service-head'>
+        <p className='Paragra'>Service we provide</p>
+        <h1>Professional Services We Offer</h1>
+      </div>
+      <div className='catagory'>
+        <div className='box1'>
+          <img src="./web.jpg" alt="" height={250} />
+          <p>software Development</p>
+          <button className='btnn4'> <FaLongArrowAltRight /> View Details</button>
+        </div>
+        <div className='box1'>
+          <img src="./clo.jpg" alt="" height={250} />
+          <p> cloud solutions</p>
+          <button className='btnn4'><FaLongArrowAltRight /> View Details</button>
+        </div>
+        <div className='box1'>
+          <img src="./pro.jpg" alt="" height={250} />
+          <p>Digital Marketing</p>
+          <button className='btnn4'><FaLongArrowAltRight /> View Details</button>
+        </div>
+      </div>
+
+
+      <div className='heroo'>
+        <div>
+          <img className='img' src="./why.png" alt="" />
+        </div>
+        <div>
+          <p className='aboutt'>About Tecnospire</p>
+          <h1>Empowering Innovation & Growth Since 2025</h1>
+          <div>
+            <img src="./border.png" alt="" />
+          </div>
+          <p className='paraa'>At Tecnospire, we combine innovation with technology to provide solutions that are not only beautiful but functional. We help brands modernize their systems, improve their user experience, and grow their business.</p>
+          <p className='paraa'>Whether you're a startup or an enterprise, we adapt to your needs and deliver results that exceed expectations.</p>
+          <div className='points'>
+
+            <div className='point'>
+              Experienced & Skilled Team
+            </div>
+            <div className='point'>
+              Tailored Business Solutions
+            </div>
+
+            <div className='point'>
+              Lifetime Support & Maintenance
+            </div>
+
+            <div className='point'>
+              Transparent & Competitive Pricing
+            </div>
+            <a className='link' href='www.youtube.com'><MdPlayCircleOutline /> Watch Us</a>
+          </div>
+        </div>
+      </div>
+      <div className='service-headd'>
+        <p className='Paragra'>LATEST BLOG</p>
+        <h1>Read Our Latest Insights</h1>
+      <div className='catagory'>
+        <div className='box2'>
+          <img src="./download.jpg" alt="" height={250} />
+          <p className='sd'>software Development</p>
+          <button className='btnn5'> View Details <FaLongArrowAltRight /></button>
+        </div>
+        <div className='box2'>
+          <img src="./dev.png" alt="" height={200} />
+          <p className='sd'> cloud solutions</p>
+          <button className='btnn5'>View Details <FaLongArrowAltRight /></button>
+        </div>
+        <div className='box2'>
+          <img src="./5.jpg" alt="" height={175} />
+          <p className='sd'>Digital Marketing</p>
+          <button className='btnn5'> View Details <FaLongArrowAltRight /> </button>
+        </div>
+      </div>
+      </div>
+       <div className='Divv'></div>
+    </>
   )
 }
 
