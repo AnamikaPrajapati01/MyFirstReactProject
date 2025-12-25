@@ -1,6 +1,6 @@
 
 .header-container{
-    background:rgb(115, 72, 15);
+    background: #8b735f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +44,7 @@ nav li a:hover{
     padding: 5px;
    font-size: 16px;
    border-radius: 5px;
+   width:200px;
 }
  .social-icons{
     display: flex;
