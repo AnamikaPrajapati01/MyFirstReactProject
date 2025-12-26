@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Service from "./pages/Service/Service";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -17,7 +18,7 @@ export default function App() {
       <Route path="*" element={<div>404 </div>}/>
 </Routes>
 
-
+<Footer></Footer>
 </>
   )
 }

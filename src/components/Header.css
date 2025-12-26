@@ -116,3 +116,76 @@ nav li a:hover{
     background-color: #429869;
     margin: 20px 0;
 }
+
+
+.footer{
+    height: 100px;
+    background-color: #61b389;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.footer-gmail{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.footer-logo{
+    margin-top: 30px;
+}
+
+.anchor-tag{
+    display: flex;
+    align-items: center ;
+    gap:30px;
+    color:white;
+ 
+}
+
+.footerr{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.footer-about{
+    width: 300px;
+   line-height: 30px;
+   margin-left: 30px;
+}
+
+.h33{
+    margin-top: 70px;
+    margin-left:40px;
+}
+
+.footer-list{
+     list-style-type: none;
+     line-height: 30px;
+}
+
+.h34{
+    margin-top: 70px;
+    margin-left:70px;
+}
+
+.design{
+     width: 300px;
+   line-height: 30px;
+   margin-left: 30px;
+}
+
+.Technospire{
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    margin-top: 30px;
+      margin-bottom: 30px;
+
+}
