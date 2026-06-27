@@ -12,9 +12,6 @@ import { IoMdPin } from "react-icons/io";
 
 
 
-
-
-
 function Home() {
   return (
     <>
@@ -80,6 +77,9 @@ function Home() {
           </div>
         </div>
       </div>
+
+
+
       <div className='service-headd'>
         <p className='Paragra'>LATEST BLOG</p>
         <h1>Read Our Latest Insights</h1>
@@ -101,6 +101,8 @@ function Home() {
           </div>
         </div>
       </div>
+
+      
       <div className='Divv'></div>
 
 

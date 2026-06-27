@@ -5,7 +5,7 @@ import "./header.css"
 function Blog() {
   return (
 <>
-    Anamika
+    hello
 </>
   )
 }
